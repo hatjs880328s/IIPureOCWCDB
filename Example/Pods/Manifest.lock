@@ -1,0 +1,32 @@
+PODS:
+  - IIPureOCWCDB (0.1.0):
+    - WCDB
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+
+DEPENDENCIES:
+  - IIPureOCWCDB (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SQLiteRepairKit
+    - WCDB
+    - WCDBOptimizedSQLCipher
+
+EXTERNAL SOURCES:
+  IIPureOCWCDB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IIPureOCWCDB: 30f4dc8ffbef3a251582385ffb76b68215572f4d
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+
+PODFILE CHECKSUM: b1b6312b37220bdbcf1ea005ed478b3e552df184
+
+COCOAPODS: 1.7.1
